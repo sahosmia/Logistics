@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  @apply font-primary;
+}
+
+.menu .active-nav {
+  @apply text-primary;
+}
+
+.visiting-place .active-nav {
+  @apply bg-red-300;
+}
+
+/* Btn  */
+.primary-btn {
+  @apply bg-primary rounded-xl py-3 px-8 font-primary font-semibold text-lg text-white inline-block;
+}
+
+.sub-container {
+  @apply container w-[900px];
+}
+
+.large-heading {
+  @apply font-secondary font-extrabold text-6xl pb-6;
+}
+.primary-heading {
+  @apply font-secondary font-bold text-4xl pb-6;
+}
+.sub-heading {
+  @apply font-secondary font-bold text-3xl pb-4;
+}
+
+.title {
+  @apply font-secondary font-bold text-2xl pb-4;
+}
+
+.paragraf {
+  @apply mb-6 font-primary text-gray-600 leading-relaxed;
+}
+.rounded-box {
+  @apply overflow-hidden rounded-lg;
+}
+.link-title{
+  @apply text-primary text-lg font-primary font-semibold capitalize;
+}

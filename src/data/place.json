@@ -1,0 +1,20 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Bangladesh",
+      "places": [
+        { "id": 1, "name": "Cox's Bazer" },
+        { "id": 2, "name": "Dhaka" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "India",
+      "places": [
+        { "id": 1, "name": "Tajmohol" },
+        { "id": 2, "name": "Dargiling" }
+      ]
+    }
+  ]
+}
